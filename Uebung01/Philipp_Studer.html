@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            header, footer, main, nav {font-family: Helvetica;}
+            header {
+                font-size:40px;
+                font-weight:bold;
+                text-align: left;
+                padding: 20px;
+                min-height: 50px;
+                background-color: rgb(19, 90, 28);
+            }
+            a{text-decoration:none;
+                color:Black;}
+            
+            footer {display:flex;
+                text-align: left;
+                padding: 20px;
+                height: 40px;
+                background-color: rgb(19, 90, 28);
+            }
+
+            main {
+                padding: 20px;
+                text-align: left;
+                background-color: rgb(196, 255, 181);
+                }
+
+            nav {
+                background-color: rgb(35, 160, 31);
+                padding: 10px;
+                text-align: left;
+            }
+
+            nav ul li{
+                display: inline-block;
+                border-left: 3px solid black;
+                cursor: pointer;
+                position: relative;
+                margin: 0;
+                padding-right: 30px;
+                transition: all 1s ease;
+            }
+
+            nav ul li a:hover {
+                color:red;
+            }
+
+            nav ul li:hover ul {
+                opacity: 1;
+                height: 100px;
+            }
+
+            nav ul li ul{
+                opacity: 0;
+                height: 0;
+                overflow: hidden;
+                position: absolute;
+                left: -3px;
+                margin: 0;
+                padding: 0;
+                transition: all 1s ease;
+            }
+
+            nav ul li ul li{
+                display: block;
+            }
+
+            .imgwerbung{width: 100%;}
+            
+            article {
+                text-align: justify;
+                display: flex;
+            }
+            section{font-weight: bold;
+                padding-right:10px;
+                padding-bottom: 40px;
+                width:100%;}
+
+            p{font-weight:normal}
+            ul{font-weight:normal}
+
+            aside {
+                float: right;
+                background-color: rgb(196, 255, 181);
+                min-width: 180px;
+                max-width: 180px;
+                padding-bottom: 40px;
+                padding-right:350px;
+                padding-left:40px;
+            }
+            .gallerie{
+                max-height:200px;
+                padding-right: 40px;
+                padding-bottom: 40px;}
+
+        </style>
+    </head>
+    <body>
+        <img class="imgwerbung" src="https://shop-kultwerks.de/images/product_images/original_images/hier-koennte-ihre-werbung-stehen.jpg">
+        <header>Biographie von [Hier könnte Ihr Name Stehen]</header>
+        
+        <nav>
+            <ul>
+                <li><a href="#Welcome">Welcome-Page</a></li>
+                <li><a href="#1">Über mich</a></li>
+                <li><a href="#Hobbys">Meine Hobbys</a></li>
+                <li> <a href="#Biographie">Biographie</a>
+                    <ul>
+                        <li><a href="#Lebenslauf">Lebenslauf</a></li>
+                        <li><a href="#Zeugnisse">Zeugnisse</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Gallerie">Gallerie</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article id="Welcome">
+                <section>
+                    Welcome-Page
+                    <p>Wenn es zu einem Ernstfall käme, würde ich meine Webseite natürlich nicht selbst gestalten, weil wie man hier sehen kann ich weder kreativ und gestalterisch begabt bin noch die Geduld dazu habe. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt esse iusto vel rem. Asperiores nobis, magnam officiis ratione sed perferendis! Autem corrupti molestiae iusto sunt, veritatis quam omnis id.</p>
+                </section>
+                <aside><img class="imgwerbung" src="https://shop-kultwerks.de/images/product_images/original_images/hier-koennte-ihre-werbung-stehen.jpg">
+                    Oder ein anderes belustigendes Bild von Ihnen mit entsprechender Bildunterschrift.</aside>
+            </article>
+            <article id="1">
+                <section>
+                In kürze über Sie
+                <ul>
+                    Fakt 1 <br>
+                    Fakt 2
+                </ul>
+                <p>Und einen netten Text dazu.
+                </p>
+                </section>
+                <aside><img class="imgwerbung" src="https://shop-kultwerks.de/images/product_images/original_images/hier-koennte-ihre-werbung-stehen.jpg">
+                    Oder ein anderes belustigendes Bild von Ihnen mit entsprechender Bildunterschrift.</aside>
+             </article>
+             <article id="Hobbys">
+                 <section>
+                     Meine Hobbys
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime accusamus sapiente voluptatibus nam blanditiis illo dolor quaerat officiis culpa quae laboriosam iste voluptates, aut iusto placeat est, consequatur corporis vero!
+                     </p>
+                 </section>
+                 <aside><img class="imgwerbung" src="Philipp_Studer_files/Skisturz.gif">
+                    Mich haut es gerne aufs Maul.
+                   </aside>
+             </article>
+            
+             <article><section>
+                Ein ausführlicher Artikel über Sie
+                <p> Text zum ausführlichen Artikel über Sie</p>
+                </section>
+                <aside><img class="imgwerbung" src="https://shop-kultwerks.de/images/product_images/original_images/hier-koennte-ihre-werbung-stehen.jpg">
+                    Oder ein anderes belustigendes Bild von Ihnen mit entsprechender Bildunterschrift.</aside>
+            </article>
+                
+            <article>
+                <section>
+                Ein ausführlicherer Artikel über Sie
+                <p> Text zum ausführlicheren Artikel über Sie</p>
+                </section>
+                <aside><img class="imgwerbung" src="Philipp_Studer_files/Skisturz.gif">
+                     Oder ein anderes belustigendes Bild von Ihnen mit entsprechender Bildunterschrift, wie zum Beispiel dieses hier, welches ziegt, dass ich manchmal ein bisschen waghalsig bin.
+                    </aside>
+            </article>
+            <article>
+                <section>
+                Ein noch ausführlicherer Artikel über Sie
+                <p> Text zum noch ausführlicheren Artikel über Sie</p>
+                </section>
+                <aside><img class="imgwerbung" src="https://shop-kultwerks.de/images/product_images/original_images/hier-koennte-ihre-werbung-stehen.jpg">
+                    Oder ein anderes belustigendes Bild von Ihnen mit entsprechender Bildunterschrift.</aside>
+            </article>
+            <article>
+                <section id="Biographie">
+                    Biographie
+                    <p> blablabla blabla blablablabla bla</p>
+                    <p id="Lebenslauf"> Lebenslauf</p>
+                    <p id="Zeugnisse"> Zeugnisse </p>
+                </section>
+            </article>
+            <article id="Blog">
+                <section>
+                    Blog
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vitae quaerat id quis distinctio ipsam culpa quod quidem ut. Odit, ipsum? Nesciunt neque obcaecati tempore aliquam temporibus laborum repellat assumenda?</p>
+                </section>
+                <aside><img class="imgwerbung" src="https://shop-kultwerks.de/images/product_images/original_images/hier-koennte-ihre-werbung-stehen.jpg">
+                    Passendes Bild zum Blog mit Unterschrift</aside>
+            </article>
+            <article id="Gallerie">
+                <section>
+                Gallerie
+                <p>
+                <img class="gallerie" src="Philipp_Studer_files/Balmer_Graetli.jpeg">
+                <img class="gallerie" src="Philipp_Studer_files/Bluemberg.jpeg"><br>
+                <img class="gallerie" src="Philipp_Studer_files/Gniepe.jpeg">
+                <img class="gallerie" src="Philipp_Studer_files/Rotsandnolle.jpeg">
+                </p>
+                </section>
+            </article>
+            <article id="Kontakt">
+                <section>
+                    Kontakt
+                    <p>Philipp Studer</p>
+                    <p>philipp.studer2@students.fhnw.ch</p>
+                    <p style="font-weight:bold">Melden Sie sich bitte nur wenn es sehr wichtig ist, oder für Spenden, Spenden sind immer wichtig!</p>
+                </section>
+            </article>
+                
+            
+        </main>
+        <nav style="background-color:rgb(19, 90, 28); padding-bottom:10px">
+            <ul>
+                <li><a href="#Welcome">Welcome-Page</a></li>
+                <li><a href="#1">Über mich</a></li>
+                <li><a href="#Hobbys">Meine Hobbys</a></li>
+                <li> <a href="#Biographie">Biographie</a>
+                    <ul>
+                        <li><a href="#Lebenslauf">Lebenslauf</a></li>
+                        <li><a href="#Zeugnisse">Zeugnisse</a></li>
+                    </ul>
+                </li>
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#Gallerie">Gallerie</a></li>
+                <li><a href="#Kontakt">Kontakt</a></li>
+            </ul>
+            <p style="text-align:right; padding-right:40px; font-size:10px">Erstellt: Philipp Studer 23.12.2021 16:00<br>
+            Letzte aktualisierung: Philipp Studer 23.12.2021 16:00</p>
+
+        </nav>
+    
+</body></html>
